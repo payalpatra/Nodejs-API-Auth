@@ -34,6 +34,6 @@ This API has 3 routes :-
 * ##### Starting the server
 ###### (Make sure to run this in the root directory)
 ```sh
- nodemon server
+ nodemon index
    ```
 

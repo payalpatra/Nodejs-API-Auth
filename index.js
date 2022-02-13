@@ -22,4 +22,8 @@ app.use(express.json());
 // Route Middleware
 app.use("/api/user", authRoute);
 
+app.get("/", (req, res) => {
+  res.send("Welcome To The Server")
+})
+
 app.listen(3000, () => console.log("The serving is running"));
